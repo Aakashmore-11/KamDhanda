@@ -1,0 +1,10 @@
+1)
+In App.jsx we call function getCurrentUser which get the user from the backend.
+->The main thing we learn from that is that when the function call the user either get or null, so if the user is there then we store the user, role in the store but as usual the redux work async so after the fetching we immediately change the LOADING state to the FALSE, so that it  may occur some error in the protected route because it mount the protected route where we use the user data which may be NULL because might be the user is not set by the redux so we use the setinterval every 50ms it check the store > user and if it is either null or user then it set loading to false so till the router and protectedRoute not mount that's the logic I learn from that.
+
+2) If we use anything in the empty array dependency in useEffect and use some value from the comp then it only access the intial value of the variable not that value which may change in the future so that's also new Thing I learn.
+
+3)
+In the routing we create one MAIN Layout > i) SEEKER Layout ii) RECRUITER Layout iii) COMPANY Layout.
+-> Here in App.jsx we first mount the route as per the user, the route run the default route which check if the user is there we create one OBJECT ROLELIST in which we have roles and there navigation so if ther user is there then redirect it to route like "/seeker", "/recruiter" and "/company" work otherwise we navigate to the login page. 
+-> This Concept called ROLE BASED ROUTING.

@@ -1,0 +1,198 @@
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\App.jsx
+   8:23  error    'useSelector' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                             no-unused-vars
+  75:6   warning  React Hook useEffect has missing dependencies: 'dispatch' and 'serverAPI'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\components\HiringWorkflow\EvaluationPanel.jsx
+  136:63  error  'Icon' is defined but never used  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\components\HiringWorkflow\InterviewRoom.jsx
+    1:46  error    'useCallback' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                                   no-unused-vars
+   69:22  error    'e' is defined but never used                                                                                                                        no-unused-vars
+   77:8   warning  React Hook useEffect has missing dependencies: 'navigate' and 'serverAPI'. Either include them or remove the dependency array                        react-hooks/exhaustive-deps
+   92:22  error    'e' is defined but never used                                                                                                                        no-unused-vars
+  211:8   warning  React Hook useEffect has missing dependencies: 'chatOpen', 'cleanup', 'roomId', and 'socketUrl'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  279:22  error    'e' is defined but never used                                                                                                                        no-unused-vars
+  291:18  error    'e' is defined but never used                                                                                                                        no-unused-vars
+  291:21  error    Empty block statement                                                                                                                                no-empty
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\components\HiringWorkflow\MockTestInterface.jsx
+  42:22  error    'error' is defined but never used                                                                                no-unused-vars
+  67:8   warning  React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  90:18  error    'error' is defined but never used                                                                                no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\components\clieent\ClientProjectCard.jsx
+  12:5  error  'skills' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  14:5  error  'proposals' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\components\common\AIChatbot.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\components\common\Button.jsx
+  9:3  error  'loading' is defined but never used  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\components\header\Nav.jsx
+  10:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\components\header\NotificationsDropdown.jsx
+  42:8  warning  React Hook useEffect has a missing dependency: 'fetchNotifications'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  75:8  warning  React Hook useEffect has a missing dependency: 'decryptedMessages'. Either include it or remove the dependency array   react-hooks/exhaustive-deps
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\components\seeker\ProjectCard.jsx
+  12:5  error  'createdAt' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  16:5  error  'proposals' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  17:5  error  'skills' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Admin\AdminDashboard.jsx
+  26:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  29:41  error  'Icon' is defined but never used                                               no-unused-vars
+  73:31  error  'Icon' is defined but never used                                               no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Admin\AdminPayments.jsx
+  40:8  warning  React Hook useEffect has a missing dependency: 'serverAPI'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Admin\ManageChats.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Admin\ManageJobs.jsx
+    7:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   23:18  error  'error' is defined but never used                                              no-unused-vars
+  147:56  error  'i' is defined but never used                                                  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Admin\ManageProjects.jsx
+    7:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   23:18  error  'error' is defined but never used                                              no-unused-vars
+  146:64  error  'i' is defined but never used                                                  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Admin\ManageSkills.jsx
+   6:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  24:18  error  'error' is defined but never used                                              no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Admin\ManageUsers.jsx
+    6:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   28:18  error  'error' is defined but never used                                              no-unused-vars
+   46:18  error  'error' is defined but never used                                              no-unused-vars
+  186:58  error  'i' is defined but never used                                                  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Clieent\AllProposals.jsx
+  18:8   error    'useAuth' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                no-unused-vars
+  20:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                 no-unused-vars
+  50:6   warning  React Hook useEffect has a missing dependency: 'serverAPI'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Clieent\ClientDashboard.jsx
+  26:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                             no-unused-vars
+  58:14  error    'err' is defined but never used                                                                                                           no-unused-vars
+  67:14  error    'err' is defined but never used                                                                                                           no-unused-vars
+  75:6   warning  React Hook useEffect has missing dependencies: 'fetchAllJobs' and 'fetchAllProjects'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Clieent\ClientHome.jsx
+  8:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Clieent\NewProject.jsx
+  18:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Clieent\ProjectDetail.jsx
+  7:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Clieent\ProposalsDetail.jsx
+  82:6   warning  React Hook useEffect has missing dependencies: 'fetchAllProposals' and 'fetchRecommendedFreelancers'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  91:13  error    'res' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                       no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\JobPortal\InterviewDashboard.jsx
+   48:18  error    'e' is defined but never used                                                                                       no-unused-vars
+   55:45  warning  React Hook useEffect has a missing dependency: 'fetchInterviews'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   63:18  error    'e' is defined but never used                                                                                       no-unused-vars
+  129:53  error    'Icon' is defined but never used                                                                                    no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\JobPortal\JobApplications.jsx
+  26:18  error    'error' is defined but never used                                                                                   no-unused-vars
+  35:8   warning  React Hook useEffect has a missing dependency: 'fetchApplicants'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  64:18  error    'error' is defined but never used                                                                                   no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\JobPortal\JobDetails.jsx
+   9:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  39:22  error  'error' is defined but never used                                              no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\JobPortal\JobsFeed.jsx
+  7:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\JobPortal\MyApplications.jsx
+  16:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                 no-unused-vars
+  48:8   warning  React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\JobPortal\PostJob.jsx
+  7:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Landing.jsx
+    2:10   error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  301:221  error  Unnecessary escape character: \U                                               no-useless-escape
+  301:227  error  Unnecessary escape character: \A                                               no-useless-escape
+  301:232  error  Unnecessary escape character: \V                                               no-useless-escape
+  301:239  error  Unnecessary escape character: \K                                               no-useless-escape
+  301:253  error  Unnecessary escape character: \K                                               no-useless-escape
+  301:263  error  Unnecessary escape character: \c                                               no-useless-escape
+  301:270  error  Unnecessary escape character: \s                                               no-useless-escape
+  301:274  error  Unnecessary escape character: \a                                               no-useless-escape
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Login.jsx
+  12:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  92:14  error  'res' is defined but never used                                                no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Seeker\AppliedForm.jsx
+  20:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                 no-unused-vars
+  53:6   warning  React Hook useEffect has a missing dependency: 'serverAPI'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Seeker\FindProjects.jsx
+  16:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Seeker\SeekerHome.jsx
+   9:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  32:16  error  'err' is defined but never used                                                no-unused-vars
+  32:21  error  Empty block statement                                                          no-empty
+  37:16  error  'err' is defined but never used                                                no-unused-vars
+  37:21  error  Empty block statement                                                          no-empty
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Seeker\SeekerProfile.jsx
+  16:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u               no-unused-vars
+  33:9   error  'getSafeUrl' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Shared\ChangePassword.jsx
+  95:9  error  'navigate' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Shared\Messages.jsx
+   15:5   error    'importPrivateKey' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                                       no-unused-vars
+   22:11  error    'navigate' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                      no-unused-vars
+   38:12  error    'isTyping' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                      no-unused-vars
+   38:22  error    'setIsTyping' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                   no-unused-vars
+   40:11  error    'typingTimeoutRef' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                              no-unused-vars
+   71:8   warning  React Hook useEffect has missing dependencies: 'isAtBottom', 'messages.length', and 'scrollToBottom'. Either include them or remove the dependency array      react-hooks/exhaustive-deps
+  135:8   warning  React Hook useEffect has a missing dependency: 'manageKeys'. Either include it or remove the dependency array                                                 react-hooks/exhaustive-deps
+  168:30  error    'err' is defined but never used                                                                                                                               no-unused-vars
+  168:35  error    Empty block statement                                                                                                                                         no-empty
+  184:30  error    'err' is defined but never used                                                                                                                               no-unused-vars
+  184:35  error    Empty block statement                                                                                                                                         no-empty
+  199:8   warning  React Hook useEffect has a missing dependency: 'decryptAll'. Either include it or remove the dependency array                                                 react-hooks/exhaustive-deps
+  219:8   warning  React Hook useEffect has a missing dependency: 'fetchConversations'. Either include it or remove the dependency array                                         react-hooks/exhaustive-deps
+  234:8   warning  React Hook useEffect has missing dependencies: 'fetchChatHistory', 'fetchConversations', and 'serverAPI'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  338:18  error    'err' is defined but never used                                                                                                                               no-unused-vars
+  338:23  error    Empty block statement                                                                                                                                         no-empty
+  355:18  error    'err' is defined but never used                                                                                                                               no-unused-vars
+  355:23  error    Empty block statement                                                                                                                                         no-empty
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Shared\ProjectTracking.jsx
+   15:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+   19:13  error  'user' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   60:18  error  'err' is defined but never used                                                       no-unused-vars
+   70:18  error  'err' is defined but never used                                                       no-unused-vars
+   96:18  error  'err' is defined but never used                                                       no-unused-vars
+  127:31  error  'Icon' is defined but never used                                                      no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Shared\TransactionHistory.jsx
+   39:8   warning  React Hook useEffect has a missing dependency: 'serverAPI'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  105:49  error    'idx' is defined but never used                                                                               no-unused-vars
+
+C:\Users\Asus\Videos\KamDhanda LTS\KamDhanda\client\src\pages\Signup.jsx
+  12:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+✖ 115 problems (95 errors, 20 warnings)
+

@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+secret.json
+serviceAccountKey.json
+.vscode
+*.log
+.DS_Store
+*.env
+server/.env
+client/.env
